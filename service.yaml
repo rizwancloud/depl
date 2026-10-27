@@ -1,14 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp2-service
+  name: myapp-service
   namespace: default
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
-    app: myapp2
+    app: myapp
   ports:
     - name: http
       protocol: TCP
-      port: 8083
+      port: 80
       targetPort: 8080
+      nodePort: 30080
