@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp2
-          image: admindockerrizwan/rizwanregister-app:21
+          image: admindockerrizwan/rizwanregister-app:22
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
