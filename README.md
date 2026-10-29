@@ -39,4 +39,15 @@ For complete infrastructure setup, CI/CD workflow, configuration,
 deployment instructions, and troubleshooting, see the
 [Project Documentation](docs/PROJECT_DOCUMENTATION.md).
 
+## Project Screenshots
+
+### Jenkins Pipeline CD Status
+![Argo CD Status](docs/screenshots/pipeline_cd.png)
+
+### Argocd Deployment and Kubernetes Workloads status
+![Kubernetes Pods](docs/screenshots/k8s_node_argocd.png)
+
+### Application Running
+![Registration Application](docs/screenshots/applicaton_running.png)
+
 **Important:** The CD job also needs the Jenkins credential ID `github` with permission to push to `main`.
