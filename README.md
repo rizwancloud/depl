@@ -33,11 +33,15 @@ sudo kubectl logs -l app=myapp2 --tail=100
 
 The example application was accessed at `/webapp/`. The notes use `sudo kubectl port-forward svc/myapp2-service 80:80 --address 0.0.0.0`; this requires the port-forward process and suitable EC2 security-group access to remain active. The manifest also defines NodePort `30080`, which is a separate access method.
 
-## Documentation
+## Project Documentation
 
-`For complete infrastructure` setup, CI/CD workflow, configuration,
-deployment instructions, and troubleshooting, see the
-[Project Documentation](docs/PROJECT_DOCUMENTATION.md).
+> [!IMPORTANT]
+> **Want to understand how this project was built?**
+>
+> Explore the complete project documentation covering infrastructure setup, Jenkins CI/CD pipelines, SonarQube, Docker, Kubernetes (Kind), Argo CD, deployment instructions, and troubleshooting.
+>
+> **[Read the Complete Project Documentation →](docs/PROJECT_DOCUMENTATION.md)**
+
 
 ## Project Screenshots
 
