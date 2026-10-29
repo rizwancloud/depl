@@ -35,7 +35,7 @@ The example application was accessed at `/webapp/`. The notes use `sudo kubectl 
 
 ## Documentation
 
-For complete infrastructure setup, CI/CD workflow, configuration,
+`For complete infrastructure` setup, CI/CD workflow, configuration,
 deployment instructions, and troubleshooting, see the
 [Project Documentation](docs/PROJECT_DOCUMENTATION.md).
 
